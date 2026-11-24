@@ -76,11 +76,11 @@
             },
             "vertices": [
               {
-                "x": 456.25,
+                "x": 425,
                 "y": 430
               },
               {
-                "x": 480,
+                "x": 450,
                 "y": 380
               }
             ]
@@ -214,7 +214,7 @@
           },
           {
             "position": {
-              "x": 403.75,
+              "x": 368.75,
               "y": 20
             },
             "size": {
@@ -331,7 +331,7 @@
           },
           {
             "position": {
-              "x": 873.25,
+              "x": 943.25,
               "y": 20
             },
             "size": {
@@ -662,11 +662,11 @@
             },
             "vertices": [
               {
-                "x": 890,
+                "x": 960,
                 "y": 380
               },
               {
-                "x": 929.5,
+                "x": 999.5,
                 "y": 430
               }
             ]
@@ -1069,7 +1069,7 @@
           },
           {
             "position": {
-              "x": 400,
+              "x": 365,
               "y": 709.9999999999999
             },
             "size": {
@@ -1193,7 +1193,7 @@
           },
           {
             "position": {
-              "x": 869.5,
+              "x": 939.5,
               "y": 709.9999999999999
             },
             "size": {
@@ -1313,30 +1313,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 859.5,
-              "y": 500
-            },
-            "size": {
-              "width": 140,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "External Environment"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 16,
-            "id": "b640124a-131c-4fb8-8d37-fd3636d6a444",
-            "data": {
-              "type": "tm.Text",
-              "name": "External Environment",
-              "hasOpenThreats": false
             }
           },
           {
