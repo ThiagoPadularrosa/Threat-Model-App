@@ -129,8 +129,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "df875b83-3ba0-47d7-86dc-e6c6e93350da",
             "zIndex": -1,
+            "id": "df875b83-3ba0-47d7-86dc-e6c6e93350da",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary 2: Application Environment",
@@ -164,8 +164,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "9395959f-78a0-43be-8609-253aa7a830b8",
             "zIndex": -1,
+            "id": "9395959f-78a0-43be-8609-253aa7a830b8",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary 1: Public Environment",
@@ -198,8 +198,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "8cca498a-c3ff-498e-ad33-0781878f1a12",
             "zIndex": -1,
+            "id": "8cca498a-c3ff-498e-ad33-0781878f1a12",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary 3: Data Environment",
