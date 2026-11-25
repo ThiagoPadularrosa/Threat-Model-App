@@ -586,7 +586,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Security Events",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -600,7 +600,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Security Events"
             ],
             "id": "bb4587e6-4058-4042-9684-d9184217e375",
             "source": {
@@ -954,7 +954,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Session Storage"
+                "text": "Session Manager"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1053,7 +1053,7 @@
             "id": "9ec830d7-8836-454e-913f-3d5ba7381faa",
             "data": {
               "type": "tm.Store",
-              "name": "Session Storage",
+              "name": "Session Manager",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1202,7 +1202,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Management"
+                "text": "Mock Notification Service"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1301,7 +1301,7 @@
             "id": "9f1a1749-bac1-4766-b2f0-56e3e4309fe9",
             "data": {
               "type": "tm.Store",
-              "name": "Management",
+              "name": "Mock Notification Service",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1433,6 +1433,30 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 929.5,
+              "y": 649.9999999999999
+            },
+            "size": {
+              "width": 140,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External Environment"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "236d48da-ce68-4d73-815d-f852ec96ce77",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Text",
+              "name": "External Environment",
+              "hasOpenThreats": false
             }
           }
         ],
