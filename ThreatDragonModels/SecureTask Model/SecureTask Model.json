@@ -45,7 +45,13 @@
             "target": {
               "cell": "98a45f91-0748-49f5-8f6e-e6a5331bdaf1",
               "port": "a89fd61b-bf9b-4699-957b-db1e4883d3ab"
-            }
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 430
+              }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -611,7 +617,12 @@
               "cell": "56098ee1-efd1-47a2-a8d0-53fda77fb708",
               "port": "4f9e45ed-36e5-4f65-ad38-c92aab756772"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 750,
+                "y": 440
+              }
+            ]
           },
           {
             "shape": "flow",
