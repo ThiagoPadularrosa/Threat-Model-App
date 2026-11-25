@@ -1,4 +1,13 @@
-# Threat Model SecureTask
+# Threat Model: SecureTask
 
-The fictional app that i come up with Is **SecureTask**, a web app to administrate tasks and users. His **objective** is
-Identify threats, evaluate risks, propose mitigations and define mechanisms of detection.
+ > **Note:** **SecureTask** is a simulated application designed for security architecture and threat modeling practice.
+
+## Application Overview
+
+*SecureTask**, a web app to administrate tasks and users. His **objective** Is Identify threats, evaluate risks, propose mitigations and define mechanisms of detection.
+
+## Scope Methodology
+
+-
+-
+-
