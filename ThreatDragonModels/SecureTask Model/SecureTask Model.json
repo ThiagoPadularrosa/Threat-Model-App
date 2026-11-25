@@ -144,8 +144,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "0890a957-b280-4d0d-b3b8-b9078325a793",
-                "dfbcc4c1-d5de-4d5c-bdd1-a3a410d4ffd5"
+                "dfbcc4c1-d5de-4d5c-bdd1-a3a410d4ffd5",
+                "0890a957-b280-4d0d-b3b8-b9078325a793"
               ],
               "containedElements": [
                 "56098ee1-efd1-47a2-a8d0-53fda77fb708",
@@ -644,64 +644,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Notifications",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "df875b83-3ba0-47d7-86dc-e6c6e93350da"
-              ]
-            },
-            "labels": [
-              "Notifications"
-            ],
-            "id": "0890a957-b280-4d0d-b3b8-b9078325a793",
-            "source": {
-              "cell": "98a45f91-0748-49f5-8f6e-e6a5331bdaf1",
-              "port": "122308fe-43cc-4b6e-a66f-e7c217bf4a70"
-            },
-            "target": {
-              "cell": "9f1a1749-bac1-4766-b2f0-56e3e4309fe9",
-              "port": "4f9e45ed-36e5-4f65-ad38-c92aab756772"
-            },
-            "vertices": [
-              {
-                "x": 960,
-                "y": 380
-              },
-              {
-                "x": 999.5,
-                "y": 430
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "API Requests",
               "description": "",
               "outOfScope": false,
@@ -829,6 +771,64 @@
               "port": "05347d16-385e-44e2-81d1-968d63bd246c"
             },
             "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Notifications",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "df875b83-3ba0-47d7-86dc-e6c6e93350da"
+              ]
+            },
+            "labels": [
+              "Notifications"
+            ],
+            "id": "0890a957-b280-4d0d-b3b8-b9078325a793",
+            "source": {
+              "cell": "98a45f91-0748-49f5-8f6e-e6a5331bdaf1",
+              "port": "122308fe-43cc-4b6e-a66f-e7c217bf4a70"
+            },
+            "target": {
+              "cell": "c4e73f10-bbc8-4a30-aa99-936ae1f8fd56",
+              "port": "b7ea77a4-9a02-457f-ac58-0d79ef848e1c"
+            },
+            "vertices": [
+              {
+                "x": 960,
+                "y": 380
+              },
+              {
+                "x": 999.5,
+                "y": 430
+              }
+            ]
           },
           {
             "position": {
@@ -1204,130 +1204,6 @@
           },
           {
             "position": {
-              "x": 939.5,
-              "y": 709.9999999999999
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Mock Notification Service"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 15,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "4f9e45ed-36e5-4f65-ad38-c92aab756772"
-                },
-                {
-                  "group": "right",
-                  "id": "f6b30217-f95f-4767-9df1-db47a43d7862"
-                },
-                {
-                  "group": "bottom",
-                  "id": "4b6207a7-7daf-4450-a529-76a818baffaf"
-                },
-                {
-                  "group": "left",
-                  "id": "fc8978f6-b4aa-44f9-a760-3ef3f06d788e"
-                }
-              ]
-            },
-            "id": "9f1a1749-bac1-4766-b2f0-56e3e4309fe9",
-            "data": {
-              "type": "tm.Store",
-              "name": "Mock Notification Service",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
               "x": 610,
               "y": 350
             },
@@ -1462,12 +1338,129 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "236d48da-ce68-4d73-815d-f852ec96ce77",
             "zIndex": 19,
+            "id": "236d48da-ce68-4d73-815d-f852ec96ce77",
             "data": {
               "type": "tm.Text",
               "name": "External Environment",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 914.5,
+              "y": 709.9999999999999
+            },
+            "size": {
+              "width": 170,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Mock Notification Service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b7ea77a4-9a02-457f-ac58-0d79ef848e1c"
+                },
+                {
+                  "group": "right",
+                  "id": "d218d6b6-ad72-445f-a270-e49b95fa2e13"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b4d924d1-c7da-481a-8ebe-dc0f6c7b6f08"
+                },
+                {
+                  "group": "left",
+                  "id": "a409d323-388f-44e9-82d6-910759803ddf"
+                }
+              ]
+            },
+            "id": "c4e73f10-bbc8-4a30-aa99-936ae1f8fd56",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Mock Notification Service",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
             }
           }
         ],
