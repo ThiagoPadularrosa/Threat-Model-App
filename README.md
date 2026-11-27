@@ -4,10 +4,10 @@
 
 ## Application Overview
 
-*SecureTask**, a web app to administrate tasks and users. His **objective** Is Identify threats, evaluate risks, propose mitigations and define mechanisms of detection.
+**SecureTask** Is a web app to administrate tasks and users. His **objective** Is Identify threats, evaluate risks, propose mitigations and define mechanisms of detection.
 
 ## Scope Methodology
 
--
--
--
+- **Methodology:** STRIDE
+- **In-Scope:**
+- **Out-Scope:**
