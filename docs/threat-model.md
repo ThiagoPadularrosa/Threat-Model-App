@@ -3,9 +3,7 @@
 
 Analyzing each element of the app using the famous methodology **STRIDE** and where of the six threats apply. Each one will have their own mitigation and rank depending on their own risk.
 
-## Threats
-
-![TemporalDiagram](../diagrams/SecureTask%20Threat%20Model.png)
+## Table with Threats and Mitigations
 
 | Element | Threat | STRIDE | Mitigation |
 | :--- | :--- | :--- | :--- |
